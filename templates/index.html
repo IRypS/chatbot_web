@@ -33,6 +33,11 @@
           flex-direction: row-reverse;
           margin-left: auto
       }
+
+      /* Overrading  */
+      .btn-primary {
+        background-color: #192063 !important;
+      }
     </style>
   </head>
 
@@ -172,8 +177,6 @@
           ? 'https://cdn.pixabay.com/photo/2022/09/25/23/28/android-7479380_1280.png'
           : 'https://cdn.pixabay.com/photo/2012/05/07/01/54/owl-47526_1280.png';
         let name = isBot ? 'Bot' : 'Usuario';
-        console.log( name );
-
 
         messageElement.className = className;
         messageElement.innerHTML = `
@@ -193,8 +196,8 @@
 
       function getTime() {
         let currentTime = new Date();
-        let hours = currentTime.getHours();
-        let minutes = currentTime.getMinutes();
+        let hours = currentTime.getHours().toString().padStart(2, '00');
+        let minutes = currentTime.getMinutes().toString().padStart(2, '00');;
         return hours + ':' + minutes
       }
     </script>
@@ -204,7 +207,6 @@
     <!-- Change Styles Script -->
     <script>
       function changeStyle( style = '' ) {
-        console.warn("Cambiando estilos...");
         let buttonSend = document.getElementById('chat-form-submit');
         let inputSend = document.getElementById('message');
 
@@ -241,6 +243,7 @@
         if ( newAnswer == "skip" ) {
           learnMode = false;
           changeStyle();
+          addActions( 'not_saved' );
           return true;
         }
 
@@ -249,6 +252,7 @@
         if ( !confirm(messageConfirm)) {
           learnMode = false;
           changeStyle();
+          addActions( 'not_saved' );
           return;
         } 
 
@@ -263,12 +267,50 @@
             if (data.isStored) {
               learnMode = false;
               changeStyle();
+              addActions( 'saved', lastQuestion, newAnswer );
             }
           });
 
       }
     </script>
     <!-- End Learn Mode Script -->
+
+
+    <!-- Actions Script -->
+    <script>
+      function addActions( action = '', question = '', answer = '' ) {
+        let scroller = document.getElementById('chat-messages');
+
+        let messageElement = document.createElement('div');
+
+        let bgType = '';
+        let text = '';
+
+        switch (action) {
+
+          case 'not_saved':
+            bgType = 'secondary';
+            text = 'Ninguna respuesta fue añadida';
+            break;
+          case 'saved':
+            bgType = 'primary';
+            text = `Respuesta añadida "${answer}" para la pregunta "${question}"`;
+            break;
+          default:
+            bgType = '';
+            text = '';
+        }
+
+        if ( bgType == '' && text == '' ) {
+          return;
+        }
+
+        messageElement.className = `alert alert-${bgType}`;
+        messageElement.innerHTML = `<small>${text}</small>`;
+        document.getElementById('messages').appendChild(messageElement);
+        scroller.scrollTo(0, scroller.scrollHeight);
+      }
+    </script>
 
   </body>
 
