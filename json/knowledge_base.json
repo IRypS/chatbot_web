@@ -50,250 +50,250 @@
       "¿El correo tenía un saludo genérico? (Sin referirse exprésamente a usted)"
     ]
   },
-  "question":[
+  "question": [
     {
-     "question": "Certus cuenta con convenios?",
-     "answer":"Sí, tiene convenios con universidades Nacionales e Internacionales. ¿Desea saber cuales son?"
+      "question": "Certus cuenta con convenios?",
+      "answer": "Sí, tiene convenios con universidades Nacionales e Internacionales. ¿Desea saber cuales son?"
     },
     {
-    "question": "Cuales son los convenios Nacionales?",
-    "answer":"Certus cuenta con 6 universidades con las que tiene convenio. Estas son: UPN, UTP, Universidad Continental, Universidad ESAN, Univerdad San Ignacio de Loyola, Universidad Peruana de Ciencias Aplicadas. ¿Desea saber cuales son las U. Internacionales?"
+      "question": "Cuales son los convenios Nacionales?",
+      "answer": "Certus cuenta con 6 universidades con las que tiene convenio. Estas son: UPN, UTP, Universidad Continental, Universidad ESAN, Univerdad San Ignacio de Loyola, Universidad Peruana de Ciencias Aplicadas. ¿Desea saber cuales son las U. Internacionales?"
     },
     {
-     "question":"Convenios Internacionales?",
-    "answer":"Certus cuenta con 3 paises con los que tiene convenio. Estas paises son:Colimbia: Universidad Pontificia Bolivariana, Uniminuto, Universidad Cooperativa de colombia. Chile: Onacap, Universidad Gabriela Mistral España: IED. Espero haber respondido a tu pregunta."
+      "question": "Convenios Internacionales?",
+      "answer": "Certus cuenta con 3 paises con los que tiene convenio. Estas paises son:Colimbia: Universidad Pontificia Bolivariana, Uniminuto, Universidad Cooperativa de colombia. Chile: Onacap, Universidad Gabriela Mistral España: IED. Espero haber respondido a tu pregunta."
     },
     {
-     "question":"Con qué empresas tiene convenio Certus?",
-    "answer":"Las enpresas son Cencosud, efe, Latina, mibanco, BCP, Hermes, NTT DATA, Adecco, Oxxo, DHL express, Interbank, etc." 
+      "question": "Con qué empresas tiene convenio Certus?",
+      "answer": "Las enpresas son Cencosud, efe, Latina, mibanco, BCP, Hermes, NTT DATA, Adecco, Oxxo, DHL express, Interbank, etc."
     },
     {
-     "question":"En qué sedes está ubicado Certus?",
-    "answer":"Av. Santiago de Surco, Av. Pachacutec 403, San Juan de Lurigancho, Ate, Av, Industrial Norte, Callao, Arequipa y Chiclayo."
+      "question": "En qué sedes está ubicado Certus?",
+      "answer": "Av. Santiago de Surco, Av. Pachacutec 403, San Juan de Lurigancho, Ate, Av, Industrial Norte, Callao, Arequipa y Chiclayo."
     },
     {
-    "question":"Qué turnos tiene?",
-    "answer":"Turno Mañana, Lunes a sábado (de 7:00 a.m. a 10:45 a.m.), Turno Diurno, Lunes a sábado (de 10:45 a.m. a 2:30 p.m.), Turno Tarde, Lunes a sábado (de 2:30 p.m. a 6:15 p.m.), Turno Noche, Lunes a sábado (de 7:00 p.m. a 10:45 p.m.)"
+      "question": "Qué turnos tiene?",
+      "answer": "Turno Mañana, Lunes a sábado (de 7:00 a.m. a 10:45 a.m.), Turno Diurno, Lunes a sábado (de 10:45 a.m. a 2:30 p.m.), Turno Tarde, Lunes a sábado (de 2:30 p.m. a 6:15 p.m.), Turno Noche, Lunes a sábado (de 7:00 p.m. a 10:45 p.m.)"
     },
     {
-    "question": "Cuales son las carreras que tiene Certus?",
-    "answer":"El Instituto Certus ofrece carreras técnicas en Negocios, Finanzas, Tecnología y Creatividad.Aquí te presento algunas de las carreras que ofrece el Instituto Certus:Administración de Empresas.Administración de Negocios Internacionales. Marketing y Gestión de Medios Digitales. Administración y Gestión Comercial. Administración y Recursos Humanos. Contabilidad y Tributación. Administración Financiera y Banca Digital. Diseño y Desarrollo de Software. Administración de Sistemas. Publicidad. Espero que esta información te sea útil."
+      "question": "Cuales son las carreras que tiene Certus?",
+      "answer": "El Instituto Certus ofrece carreras técnicas en Negocios, Finanzas, Tecnología y Creatividad.Aquí te presento algunas de las carreras que ofrece el Instituto Certus:Administración de Empresas.Administración de Negocios Internacionales. Marketing y Gestión de Medios Digitales. Administración y Gestión Comercial. Administración y Recursos Humanos. Contabilidad y Tributación. Administración Financiera y Banca Digital. Diseño y Desarrollo de Software. Administración de Sistemas. Publicidad. Espero que esta información te sea útil."
     },
     {
-     "question":"¿Cómo puedo contactar al Instituto Certus?",
-    "answer":"Puedes contactar al Instituto Certus a través de los siguientes medios: Teléfono: Para llamar al Instituto Certus, puedes marcar el siguiente número de atención a clientes: (01) 20 20 900. El horario de atención telefónica es de lunes a viernes de 9:00 a.m. a 8:00 p.m. y los sábados de 9:00 a.m. a 6:00 p.m. Correo electrónico: Si prefieres enviar un correo electrónico, puedes escribir a informes@certus.edu.pe . Página web: También puedes visitar la página web del Instituto Certus para obtener más información sobre sus carreras y servicios"
+      "question": "¿Cómo puedo contactar al Instituto Certus?",
+      "answer": "Puedes contactar al Instituto Certus a través de los siguientes medios: Teléfono: Para llamar al Instituto Certus, puedes marcar el siguiente número de atención a clientes: (01) 20 20 900. El horario de atención telefónica es de lunes a viernes de 9:00 a.m. a 8:00 p.m. y los sábados de 9:00 a.m. a 6:00 p.m. Correo electrónico: Si prefieres enviar un correo electrónico, puedes escribir a informes@certus.edu.pe . Página web: También puedes visitar la página web del Instituto Certus para obtener más información sobre sus carreras y servicios"
     },
     {
-    "question":"¿Cuál es la política de reembolso del Instituto Certus?",
-    "answer":"La política de reembolso del Instituto Certus establece que los estudiantes pueden solicitar la devolución de su dinero si cancelan su matrícula antes del inicio de las clases. Si el estudiante decide retirarse después del inicio de las clases, el instituto no reembolsará el dinero pagado por la matrícula. Sin embargo, el estudiante puede solicitar una transferencia a otra carrera o programa en el instituto"
+      "question": "¿Cuál es la política de reembolso del Instituto Certus?",
+      "answer": "La política de reembolso del Instituto Certus establece que los estudiantes pueden solicitar la devolución de su dinero si cancelan su matrícula antes del inicio de las clases. Si el estudiante decide retirarse después del inicio de las clases, el instituto no reembolsará el dinero pagado por la matrícula. Sin embargo, el estudiante puede solicitar una transferencia a otra carrera o programa en el instituto"
     },
     {
-    "question": "¿Ofrece el Instituto Certus algún descuento o promoción?",
-    "answer":"¡Hola! El Instituto Certus ofrece promociones y descuentos en diferentes momentos del año. Por ejemplo, en el pasado ha ofrecido descuentos en cursos seleccionados, financiamiento de pagos en cuotas, y matrícula gratuita. Te recomiendo que visites la página web del instituto o te comuniques con ellos para obtener información actualizada sobre las promociones y descuentos disponibles."
+      "question": "¿Ofrece el Instituto Certus algún descuento o promoción?",
+      "answer": "¡Hola! El Instituto Certus ofrece promociones y descuentos en diferentes momentos del año. Por ejemplo, en el pasado ha ofrecido descuentos en cursos seleccionados, financiamiento de pagos en cuotas, y matrícula gratuita. Te recomiendo que visites la página web del instituto o te comuniques con ellos para obtener información actualizada sobre las promociones y descuentos disponibles."
     },
     {
-    "question": "¿Cuánto tiempo lleva el Instituto Certus en funcionamiento?",
-    "answer":"El Instituto Certus tiene más de 26 años de experiencia en la formación de profesionales en carreras técnicas en Negocios, Finanzas, Tecnología y Creatividad."
+      "question": "¿Cuánto tiempo lleva el Instituto Certus en funcionamiento?",
+      "answer": "El Instituto Certus tiene más de 26 años de experiencia en la formación de profesionales en carreras técnicas en Negocios, Finanzas, Tecnología y Creatividad."
     },
     {
-    "question": "¿Podrías pasarme el enlace de la matricula de Certus?",
-    "answer":"Claro. https://www.certus.edu.pe/matricula/"
+      "question": "¿Podrías pasarme el enlace de la matricula de Certus?",
+      "answer": "Claro. https://www.certus.edu.pe/matricula/"
     },
     {
-    "question": "¿Podrías pasarme el enlace del portal Certus?",
-    "answer":"¡Por supuesto! El enlace al portal del Instituto Certus es http://intranet.certus.edu.pe/login/."
+      "question": "¿Podrías pasarme el enlace del portal Certus?",
+      "answer": "¡Por supuesto! El enlace al portal del Instituto Certus es http://intranet.certus.edu.pe/login/."
     },
     {
-    "question": "Cuenta con buena antención al estudiante?",
-    "answer":"El Instituto Certus se preocupa por brindar una atención de calidad a sus estudiantes. Cuenta con una central de informes que puedes contactar por teléfono o correo electrónico para resolver tus dudas y consultas."
+      "question": "Cuenta con buena antención al estudiante?",
+      "answer": "El Instituto Certus se preocupa por brindar una atención de calidad a sus estudiantes. Cuenta con una central de informes que puedes contactar por teléfono o correo electrónico para resolver tus dudas y consultas."
     },
     {
-    "question": "Hay servicios de consejería psicológica?",
-    "answer":"El instituto ofrece servicios de consejería psicológica en línea para sus estudiantes, con el objetivo de ayudarlos a gestionar sus emociones y mejorar su organización en los estudios o el trabajo."
+      "question": "Hay servicios de consejería psicológica?",
+      "answer": "El instituto ofrece servicios de consejería psicológica en línea para sus estudiantes, con el objetivo de ayudarlos a gestionar sus emociones y mejorar su organización en los estudios o el trabajo."
     },
     {
-    "question": "Qué papeles necesito para inscribirme al instituto Certus?",
-    "answer":"Para inscribirte en el Instituto Certus, necesitarás los siguientes documentos: Copia de tu DNI: Deberás presentar una copia de tu Documento Nacional de Identidad (DNI) vigente. Certificado de estudios: Deberás presentar una copia del certificado de estudios de tu educación secundaria o equivalente. Recibo de pago: Deberás presentar el recibo de pago correspondiente a la matrícula y pensión del ciclo académico en el que te inscribirás."
+      "question": "Qué papeles necesito para inscribirme al instituto Certus?",
+      "answer": "Para inscribirte en el Instituto Certus, necesitarás los siguientes documentos: Copia de tu DNI: Deberás presentar una copia de tu Documento Nacional de Identidad (DNI) vigente. Certificado de estudios: Deberás presentar una copia del certificado de estudios de tu educación secundaria o equivalente. Recibo de pago: Deberás presentar el recibo de pago correspondiente a la matrícula y pensión del ciclo académico en el que te inscribirás."
     },
     {
-    "question":"¿Da practicas a sus estudiantes?",
-    "answer":"¡Hola! Sí, el Instituto Certus ofrece prácticas preprofesionales y profesionales a sus estudiantes. Además, Certus se compromete en el desarrollo profesional de sus estudiantes y egresados, y les brinda asesoramiento en la búsqueda de oportunidades de trabajo a través de convenios con más de 100 empresas a nivel nacional. ¡Espero que esto te haya ayudado!"
+      "question": "¿Da practicas a sus estudiantes?",
+      "answer": "¡Hola! Sí, el Instituto Certus ofrece prácticas preprofesionales y profesionales a sus estudiantes. Además, Certus se compromete en el desarrollo profesional de sus estudiantes y egresados, y les brinda asesoramiento en la búsqueda de oportunidades de trabajo a través de convenios con más de 100 empresas a nivel nacional. ¡Espero que esto te haya ayudado!"
     },
     {
-    "question":"¿Tiene programas de capacitación?",
-    "answer":"Certus ofrece programas de capacitación en diversas áreas, como marketing digital, diseño gráfico, programación, entre otros. ¡Espero que esto te haya ayudado!"
+      "question": "¿Tiene programas de capacitación?",
+      "answer": "Certus ofrece programas de capacitación en diversas áreas, como marketing digital, diseño gráfico, programación, entre otros. ¡Espero que esto te haya ayudado!"
     },
     {
-    "question":"¿Ofrece Certificaciones internacionales?",
-    "answer":"Certus es un centro autorizado para la realización de exámenes de certificación internacional en diversas áreas, como Microsoft Office Specialist (MOS), Adobe Certified Associate (ACA). ¡Espero que esto te haya ayudado!"
+      "question": "¿Ofrece Certificaciones internacionales?",
+      "answer": "Certus es un centro autorizado para la realización de exámenes de certificación internacional en diversas áreas, como Microsoft Office Specialist (MOS), Adobe Certified Associate (ACA). ¡Espero que esto te haya ayudado!"
     },
     {
-    "question":"El instituto Certus cuenta con laboratorio clinico?",
-    "answer":"Certus cuenta con un laboratorio clínico que brinda servicios de análisis clínicos y microbiológicos. ¡Espero que esto te haya ayudado!"
+      "question": "El instituto Certus cuenta con laboratorio clinico?",
+      "answer": "Certus cuenta con un laboratorio clínico que brinda servicios de análisis clínicos y microbiológicos. ¡Espero que esto te haya ayudado!"
     },
     {
-    "question": "Por qué Certus?",
-    "answer":"9 de cada 10 de nuestros egresados trabaja para una empresa formal. Y nos ubicamos entre las 10 instituciones educativas mejor valoradas por nuestro ecosistema de conexión laboral."
+      "question": "Por qué Certus?",
+      "answer": "9 de cada 10 de nuestros egresados trabaja para una empresa formal. Y nos ubicamos entre las 10 instituciones educativas mejor valoradas por nuestro ecosistema de conexión laboral."
     },
     {
-    "question": "Modalidad EES?",
-    "answer":"Todo lo que debes saber de esta modalidad de enseñanza que, no es universidad, pero te otorga un bachiller con el mismo valor y en menos tiempo. ¿Deseas saber un poco más?"
+      "question": "Modalidad EES?",
+      "answer": "Todo lo que debes saber de esta modalidad de enseñanza que, no es universidad, pero te otorga un bachiller con el mismo valor y en menos tiempo. ¿Deseas saber un poco más?"
     },
     {
-    "question":"Certus modalidad EES",
-    "answer":"Estas escuelas –autorizadas por el Ministerio de Educación a partir del 2019– ofrecen diversos beneficios. El principal es que brinda carreras profesionales de 4 años que otorgan el grado de bachiller equivalente al grado universitario. El director general, Guillermo Sánchez, explica aquí las razones por las cuales la educación que brindamos -como reciente Escuela de Educación Superior Certus– representa un papel trascendental en el contexto actual y futuro del país. Por ende se implementó ésta nueva modalidad. ¿Deseas saber los beneficios de la nueva modalidad?"
+      "question": "Certus modalidad EES",
+      "answer": "Estas escuelas –autorizadas por el Ministerio de Educación a partir del 2019– ofrecen diversos beneficios. El principal es que brinda carreras profesionales de 4 años que otorgan el grado de bachiller equivalente al grado universitario. El director general, Guillermo Sánchez, explica aquí las razones por las cuales la educación que brindamos -como reciente Escuela de Educación Superior Certus– representa un papel trascendental en el contexto actual y futuro del país. Por ende se implementó ésta nueva modalidad. ¿Deseas saber los beneficios de la nueva modalidad?"
     },
     {
-    "question": "Beneficios de la nueva modalidad",
-    "answer":"Aquí algunos beneficios sobre la nueva modalidad de Certus: Menor tiempo de estudio, menor inversión oportunidades de prácticas profesionales flexibilidad servicios de apoyo estudiantil y mejores oportunidades laborales. Estos serían algunos de los beneficios. ¿Deseas algunas ideas de cómo elegir una escuela de educación superior?"
+      "question": "Beneficios de la nueva modalidad",
+      "answer": "Aquí algunos beneficios sobre la nueva modalidad de Certus: Menor tiempo de estudio, menor inversión oportunidades de prácticas profesionales flexibilidad servicios de apoyo estudiantil y mejores oportunidades laborales. Estos serían algunos de los beneficios. ¿Deseas algunas ideas de cómo elegir una escuela de educación superior?"
     },
     {
-    "question": "Puntos para elegir una educación superior.",
-    "answer":"Consideraciones académicas: El primer paso es considerar las necesidades académicas que tienes. Consideraciones financieras: La educación superior puede ser costosa. Es importante considerar los costos de matrícula, alojamiento, libros y otros gastos. Consideraciones de ubicación: ¿Dónde le gustaría estudiar? ¿Quiere quedarse cerca de casa o mudarse a otra ciudad?"
+      "question": "Puntos para elegir una educación superior.",
+      "answer": "Consideraciones académicas: El primer paso es considerar las necesidades académicas que tienes. Consideraciones financieras: La educación superior puede ser costosa. Es importante considerar los costos de matrícula, alojamiento, libros y otros gastos. Consideraciones de ubicación: ¿Dónde le gustaría estudiar? ¿Quiere quedarse cerca de casa o mudarse a otra ciudad?"
     },
     {
-    "question": "Eres un chatbot de Certus?",
-    "answer":"Soy un bot creado por el grupo 12, soy un proyecto creado para indicarte e informarte sobre temas relacionados al Instituto Certus. ¡Espero cumplir bien con mi cometido y poderte ayudar!"
+      "question": "Eres un chatbot de Certus?",
+      "answer": "Soy un bot creado por el grupo 12, soy un proyecto creado para indicarte e informarte sobre temas relacionados al Instituto Certus. ¡Espero cumplir bien con mi cometido y poderte ayudar!"
     },
     {
-    "question": "Cuál es la misión del Instituto Certus?",
-    "answer": "La misión de Certus es Formar personas de excelencia que logren sus proyectos de vida."
+      "question": "Cuál es la misión del Instituto Certus?",
+      "answer": "La misión de Certus es Formar personas de excelencia que logren sus proyectos de vida."
     },
     {
-    "question":"Visión de Certus",
-    "answer":"La visión de Certus es . Ser una comunidad educativa reconocida por la calidad de egresados gracias a un modelo académico de vanguardia."
+      "question": "Visión de Certus",
+      "answer": "La visión de Certus es . Ser una comunidad educativa reconocida por la calidad de egresados gracias a un modelo académico de vanguardia."
     },
     {
-    "question": "Los valores de Certus",
-    "answer":"Los valores fundamentales del Instituto Certus son: Integridad Pasión Respeto Responsabilidad Trabajo en equipo."
+      "question": "Los valores de Certus",
+      "answer": "Los valores fundamentales del Instituto Certus son: Integridad Pasión Respeto Responsabilidad Trabajo en equipo."
     },
     {
-    "question":"Certus tiene gobierno corporativo?",
-    "answer":"En CERTUS se brinda una educación técnica profesional de calidad, diseñada con los más altos estándares en el mundo de la educación moderna. La implementación del Buen Gobierno Corporativo, el Código de Conducta y el canal de Gestión Ética son parte del proceso de desarrollo institucional y ayudan a funcionar de manera transparente, ética e íntegra. SU USO FORTALECE SU CULTURA DE CONFIANZA Y MEJORA LA EFICIENCIA DE SU GESTIÓN."
+      "question": "Certus tiene gobierno corporativo?",
+      "answer": "En CERTUS se brinda una educación técnica profesional de calidad, diseñada con los más altos estándares en el mundo de la educación moderna. La implementación del Buen Gobierno Corporativo, el Código de Conducta y el canal de Gestión Ética son parte del proceso de desarrollo institucional y ayudan a funcionar de manera transparente, ética e íntegra. SU USO FORTALECE SU CULTURA DE CONFIANZA Y MEJORA LA EFICIENCIA DE SU GESTIÓN."
     },
     {
-    "question": "Consejos Certus",
-    "answer":"Certus cuenta con un apartado de consejos, ahí muestra datos de algunas preguntas frecuentes que tienen los estudiantes o interesados en el instituto. Desde carrera para gente que trabaja hasta claves para aprovechar al maximo Cyber wow."
+      "question": "Consejos Certus",
+      "answer": "Certus cuenta con un apartado de consejos, ahí muestra datos de algunas preguntas frecuentes que tienen los estudiantes o interesados en el instituto. Desde carrera para gente que trabaja hasta claves para aprovechar al maximo Cyber wow."
     },
     {
-    "question": "Hay biblioteca en Certus?",
-    "answer":"Claro! El Instituto Certus ofrece una biblioteca de las carreras que ofrece, a parte tiene un apartado virtual, podrás encontrar libros virtuales sobre el tema del que estés interesado."
+      "question": "Hay biblioteca en Certus?",
+      "answer": "Claro! El Instituto Certus ofrece una biblioteca de las carreras que ofrece, a parte tiene un apartado virtual, podrás encontrar libros virtuales sobre el tema del que estés interesado."
     },
     {
-    "question": "Metodo de pago",
-    "answer":"Certus cuenta con metodo de pago virtual. Busca Certus en nombre de la empresa y marca cuotas. Digita tu DNI y selecciona el monto a pagar. Confirma el pago con tu clave Digital. Puedes pagar por Yape, BCP, etc."
+      "question": "Metodo de pago",
+      "answer": "Certus cuenta con metodo de pago virtual. Busca Certus en nombre de la empresa y marca cuotas. Digita tu DNI y selecciona el monto a pagar. Confirma el pago con tu clave Digital. Puedes pagar por Yape, BCP, etc."
     },
     {
-    "question": "Libro de reclamaciones",
-    "answer":"Si presentas algún problema o cuestión, puedes acercarte al libro de reclamaciones, te darán un formulario donde podrás ingresar tus problemas. Claro! Tienes que ingresar tu nombre, correo, número, cede y el ciclo que cursas." 
+      "question": "Libro de reclamaciones",
+      "answer": "Si presentas algún problema o cuestión, puedes acercarte al libro de reclamaciones, te darán un formulario donde podrás ingresar tus problemas. Claro! Tienes que ingresar tu nombre, correo, número, cede y el ciclo que cursas."
     },
     {
-    "question": "Terminos y condiciones",
-    "answer":"Certus presenta terminos y condiciones sobre todas las carreras, esto brinda gran ayuda a los estudiantes. Aquí el link de los terminos y condiciones: https://www.certus.edu.pe/terminos-condiciones/."
+      "question": "Terminos y condiciones",
+      "answer": "Certus presenta terminos y condiciones sobre todas las carreras, esto brinda gran ayuda a los estudiantes. Aquí el link de los terminos y condiciones: https://www.certus.edu.pe/terminos-condiciones/."
     },
     {
-    "question": "Qué tal es la red de egresados de Certus?",
-    "answer":"EL 89% de los egresados alcanzaron sus metas al finalizar su carrera."
+      "question": "Qué tal es la red de egresados de Certus?",
+      "answer": "EL 89% de los egresados alcanzaron sus metas al finalizar su carrera."
     },
     {
-    "question": "Tiene Certus especializaciones de Educación Continua",
-    "answer":"Claro! Certus tiene un porcentaje del 25% de descuento, exclusivamente para los egresados. Cuenta también con consultarias sobre los beneficios que puedes lograr."
+      "question": "Tiene Certus especializaciones de Educación Continua",
+      "answer": "Claro! Certus tiene un porcentaje del 25% de descuento, exclusivamente para los egresados. Cuenta también con consultarias sobre los beneficios que puedes lograr."
     },
     {
-    "question":"Aliados Empresariales",
-    "answer":"Puedes participar para participar en tallerres de empleabilidad con expertos para desarrollar tus habilidad blandas y tu proyección profesional. Para más información te entregamos el siguiente enlace: https://www.certus.edu.pe/empleabilidad/egresados/#section-formulario."
+      "question": "Aliados Empresariales",
+      "answer": "Puedes participar para participar en tallerres de empleabilidad con expertos para desarrollar tus habilidad blandas y tu proyección profesional. Para más información te entregamos el siguiente enlace: https://www.certus.edu.pe/empleabilidad/egresados/#section-formulario."
     },
     {
-    "question": "Hay procesos para seleccionar egresados virtualmente?",
-    "answer":"Sí! Es llamado proceso de selección virtual donde hay más de 4 mill alumnos beneficiados desde el año 2021."
+      "question": "Hay procesos para seleccionar egresados virtualmente?",
+      "answer": "Sí! Es llamado proceso de selección virtual donde hay más de 4 mill alumnos beneficiados desde el año 2021."
     },
     {
-    "question": "Cómo puedo saber si soy apto para el trabajo que busco?",
-    "answer":"Certus cuenta con herramientas para la medición de competencias Dr. CV y Programa Evaluarte. ¿Deseas más onformación de Dr. CV?"
+      "question": "Cómo puedo saber si soy apto para el trabajo que busco?",
+      "answer": "Certus cuenta con herramientas para la medición de competencias Dr. CV y Programa Evaluarte. ¿Deseas más onformación de Dr. CV?"
     },
     {
-    "question":" De qué se encarga el Dr.CV?",
-    "answer":"Claro! Este se encarga de optimizar tu curriculum al máximo y que logres esa oportunidad laboral que tanto esperabas. Este vendría a ser un ascesor tecnológico con inteligencia artificial al igual que yo."
+      "question": " De qué se encarga el Dr.CV?",
+      "answer": "Claro! Este se encarga de optimizar tu curriculum al máximo y que logres esa oportunidad laboral que tanto esperabas. Este vendría a ser un ascesor tecnológico con inteligencia artificial al igual que yo."
     },
     {
-    "question": "Programa Evaluarte",
-    "answer":"En Certus existe el programa evaluarte que te ayuda a mejorar tus competencias laborales y que seas un profesional competitivo adaptado a las exigencias del mercado. Este programa evalua tus aptitudes y tu rendimiento."
+      "question": "Programa Evaluarte",
+      "answer": "En Certus existe el programa evaluarte que te ayuda a mejorar tus competencias laborales y que seas un profesional competitivo adaptado a las exigencias del mercado. Este programa evalua tus aptitudes y tu rendimiento."
     },
     {
-    "question": "Gestión de Ciberseguridad en Certus.",
-    "answer":"Pude recopilar la siguiente información. Este curso comenzará el 28 de Noviembre, tiene la finalidad de multiplicar tus opciones de trabajo, este se especializará en buscar profesionales capacitados por esta rama."
+      "question": "Gestión de Ciberseguridad en Certus.",
+      "answer": "Pude recopilar la siguiente información. Este curso comenzará el 28 de Noviembre, tiene la finalidad de multiplicar tus opciones de trabajo, este se especializará en buscar profesionales capacitados por esta rama."
     },
     {
-    "question": "La clase de Cibersegurdidad será virtual o presencial?",
-    "answer":"La clase impartida será de modalidad Online / Síncrona. ¿Alguna otra pregunta?"
+      "question": "La clase de Cibersegurdidad será virtual o presencial?",
+      "answer": "La clase impartida será de modalidad Online / Síncrona. ¿Alguna otra pregunta?"
     },
     {
-    "question": "Duración de la clase de ciberseguirdad",
-    "answer":"Esta clase tendrá una duración de 5 meses / 160 horas académicas"
+      "question": "Duración de la clase de ciberseguirdad",
+      "answer": "Esta clase tendrá una duración de 5 meses / 160 horas académicas"
     },
     {
-    "question": "A quién está dirigida la carrera de ciberseguidad?",
-    "answer":"Esta carrera está dirigida a especialistas en seguridad de la información. Analistas o profesionales en auditoría, seguridad o riesgos tecnológicos. Y personas interesadas en incrementar y mejorar sus habilidades en ciberseguridad con conocimientos previos de programación e informática"
+      "question": "A quién está dirigida la carrera de ciberseguidad?",
+      "answer": "Esta carrera está dirigida a especialistas en seguridad de la información. Analistas o profesionales en auditoría, seguridad o riesgos tecnológicos. Y personas interesadas en incrementar y mejorar sus habilidades en ciberseguridad con conocimientos previos de programación e informática"
     },
     {
-    "question":"Donde podré laborar si estudio Ciberseguridad?",
-    "answer":"Puedes laborar en industrias de tecnología de la información, en consultorías de ciberseguridad y en departamentos de seguirdad informática en empresas."
+      "question": "Donde podré laborar si estudio Ciberseguridad?",
+      "answer": "Puedes laborar en industrias de tecnología de la información, en consultorías de ciberseguridad y en departamentos de seguirdad informática en empresas."
     },
     {
-    "question":"Qué se aprenderá en esta nueva carrera?",
-    "answer":"Aprenderás a Diseñar e implementar medidas de seguidad efectivas para proteger la información y los sistemas de la organización, como gestionar incidentes de seguridad y riesgos potenciales."
+      "question": "Qué se aprenderá en esta nueva carrera?",
+      "answer": "Aprenderás a Diseñar e implementar medidas de seguidad efectivas para proteger la información y los sistemas de la organización, como gestionar incidentes de seguridad y riesgos potenciales."
     },
     {
-    "question":"Obtendré un certificado del curso de ciberseguridad?",
-    "answer":"Obtendrás un certificado de Especialización en Gestión en Ciberseguridad a nombre de Certus."
+      "question": "Obtendré un certificado del curso de ciberseguridad?",
+      "answer": "Obtendrás un certificado de Especialización en Gestión en Ciberseguridad a nombre de Certus."
     },
     {
-    "question": "Datos recopilados",
-    "answer":"¡Gracias por tu pregunta! Entre los datos recopilados de los estudiantes egresados de certus, se encuentran varios videos de cómo les fue y el por qué de estudiar en certus, si no te fias de los datos de comentarios escritos, puedes pasarte al apartado de videos y ver los recopilados. "
+      "question": "Datos recopilados",
+      "answer": "¡Gracias por tu pregunta! Entre los datos recopilados de los estudiantes egresados de certus, se encuentran varios videos de cómo les fue y el por qué de estudiar en certus, si no te fias de los datos de comentarios escritos, puedes pasarte al apartado de videos y ver los recopilados. "
     },
     {
-    "question": "Premios, Eventos y sorteos Certus",
-    "answer":"Certus proporciona eventos y campeonatos para fomentar la deportividad entre los estudiantes, sorteos de premios como gifcards entre otros, todo para una vida y mentalidad saludable en su estadía con Certus."
+      "question": "Premios, Eventos y sorteos Certus",
+      "answer": "Certus proporciona eventos y campeonatos para fomentar la deportividad entre los estudiantes, sorteos de premios como gifcards entre otros, todo para una vida y mentalidad saludable en su estadía con Certus."
     },
     {
-    "question": "Cómo puedo saber sobre becas, tarifarios, y más de Certus?",
-    "answer":"Existe un apartado de transparencia en el citio web de Certus, en el te proporcionará datos de las becas educativas otorgadas en el año en curso, tarifarios, ingresantes, matriculados, licenciamiento, etc. Enlace para más infomación: https://www.certus.edu.pe/portal-de-transparencia/.  ¿Pude contestar a tu pregunta?"
+      "question": "Cómo puedo saber sobre becas, tarifarios, y más de Certus?",
+      "answer": "Existe un apartado de transparencia en el citio web de Certus, en el te proporcionará datos de las becas educativas otorgadas en el año en curso, tarifarios, ingresantes, matriculados, licenciamiento, etc. Enlace para más infomación: https://www.certus.edu.pe/portal-de-transparencia/.  ¿Pude contestar a tu pregunta?"
     },
     {
-    "question":"Me contaron por clases separadas sobre inglés ¿Cuentame un poco este tema?",
-    "answer":"Si pudiste observar en tu malla curricular, puedes notar que un año contarás con ingles integrado, pero luego no estará, eso quiere decir que tendrás que inscribirte en una clase separada de ingles B1. No te preocupes, los mensajes del instituto te llegarán a tu correo cuando sea el momento. Será importante que logres terminar hasta B1 tu ingles, para poder culminar tus estudios en certus."
+      "question": "Me contaron por clases separadas sobre inglés ¿Cuentame un poco este tema?",
+      "answer": "Si pudiste observar en tu malla curricular, puedes notar que un año contarás con ingles integrado, pero luego no estará, eso quiere decir que tendrás que inscribirte en una clase separada de ingles B1. No te preocupes, los mensajes del instituto te llegarán a tu correo cuando sea el momento. Será importante que logres terminar hasta B1 tu ingles, para poder culminar tus estudios en certus."
     },
     {
-    "question":"Si tengo carro ¿Hay un lugar donde dejarlo?",
-    "answer":"Certus tiene un espacio al costado de la cede para poder dejar tu carro o moto."
+      "question": "Si tengo carro ¿Hay un lugar donde dejarlo?",
+      "answer": "Certus tiene un espacio al costado de la cede para poder dejar tu carro o moto."
     },
     {
-    "question": "Al ingresar a Certus ¿Se tiene que presentar algo?",
-    "answer":"La pregunta es un poco abierta, pero si te refieres a la hora de ingresar a clases, entonces es un sí. Debes presentar tu DNI en la entrada de Certus para poder ser registrado y se te permita el paso. Si es padre de familia, entonces tendrá que ingresar el apoderado del estudiante, ya sea padre o madre."
+      "question": "Al ingresar a Certus ¿Se tiene que presentar algo?",
+      "answer": "La pregunta es un poco abierta, pero si te refieres a la hora de ingresar a clases, entonces es un sí. Debes presentar tu DNI en la entrada de Certus para poder ser registrado y se te permita el paso. Si es padre de familia, entonces tendrá que ingresar el apoderado del estudiante, ya sea padre o madre."
     },
     {
-    "question": "Certus cuenta con comedor?",
-    "answer":"Sí. Certus cuenta con un comedor habierto para el disfrute de los estudiantes, cuenta con bancos para sentarse. El pago se puede realizar en efectivo y por yape al comprar un alimento."
+      "question": "Certus cuenta con comedor?",
+      "answer": "Sí. Certus cuenta con un comedor habierto para el disfrute de los estudiantes, cuenta con bancos para sentarse. El pago se puede realizar en efectivo y por yape al comprar un alimento."
     },
     {
-    "question": "Tiene sala de recreación?",
-    "answer":"Certus cuenta con un patio donde podrás encontrar desde pimpom hasta fulbito para que los estudiantes se distraigan. Cada cierto tiempo, Certus realiza eventos de dichos juegos y torneos con premios para los ganadores."
+      "question": "Tiene sala de recreación?",
+      "answer": "Certus cuenta con un patio donde podrás encontrar desde pimpom hasta fulbito para que los estudiantes se distraigan. Cada cierto tiempo, Certus realiza eventos de dichos juegos y torneos con premios para los ganadores."
     },
     {
-    "question": "Hola, ¿cómo puedo obtener ayuda?",
-    "answer":"¡Hola! Soy bot12, estoy aquí para darte ayuda en cuestiones o cosas que no sepas sobre el Instituto Certus. Será un placer. ¿Comenzamos?"
+      "question": "Hola, ¿cómo puedo obtener ayuda?",
+      "answer": "¡Hola! Soy bot12, estoy aquí para darte ayuda en cuestiones o cosas que no sepas sobre el Instituto Certus. Será un placer. ¿Comenzamos?"
     },
     {
-    "question": "Cuantos pisos tiene el instituto Certus?",
-    "answer":"El Instituto de Arequipa cuenta con 9 pisos y una azotea."
+      "question": "Cuantos pisos tiene el instituto Certus?",
+      "answer": "El Instituto de Arequipa cuenta con 9 pisos y una azotea."
     },
     {
-    "question": "Se puede llevar mascotas a Certus?",
-    "answer":"No, el instituto Certus no puede dejarte pasar con mascotas a las aulas o lugares de estudio."
+      "question": "Se puede llevar mascotas a Certus?",
+      "answer": "No, el instituto Certus no puede dejarte pasar con mascotas a las aulas o lugares de estudio."
     },
     {
-    "question": "Muchas gracias. Chau!.",
-    "answer":"¡De nada! ¡Que tengas un buen día! 😊" 
+      "question": "Muchas gracias. Chau!.",
+      "answer": "¡De nada! ¡Que tengas un buen día! 😊"
     }
-  ]    
+  ]
 }

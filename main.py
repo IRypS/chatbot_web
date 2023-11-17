@@ -48,5 +48,24 @@ def chat():
 
     return jsonify({ 'response': response, 'exit': exit , 'learn': response == knowledgeBase['response_not_found']})
 
+
+# Put Events
+@app.route('/set-new-response', methods=['PUT'])
+def setNewResponse():
+    data = request.get_json()
+    question = data['question']
+    answer = data['answer']
+    isStored = False
+
+    try:
+        knowledgeBase["question"].append({"question": question, "answer": answer})
+        save_knowledge_base(knowled_base_json_path, knowledgeBase)
+        isStored = True
+    except:
+        isStored = False
+
+
+    return jsonify({ 'isStored': isStored, 'question': question , 'answer': answer})
+
 if __name__ == '__main__':
     app.run(debug=True)
