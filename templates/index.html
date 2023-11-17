@@ -105,6 +105,14 @@
         }).then(response => response.json())
         .then(data => {
           generateMessageInView( containerMessage, data.response, true, true );
+
+          if (data.exit) {
+
+            setTimeout(function() {
+              window.location.href = "/leave";
+            }, 3000)
+
+          }
         });
       });
     </script>

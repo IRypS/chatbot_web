@@ -1,9 +1,17 @@
 from flask import Flask, render_template, request, jsonify
 from backend.chatbot_backend import load_knowledge_base, save_knowledge_base, search_response
+import os
+
 
 app = Flask(__name__)
 
-knowled_base_json_path = 'json/knowledge_base.json'
+# Obtén la ruta al directorio actual
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Crea la ruta al archivo JSON
+knowled_base_json_path = os.path.join(current_dir, 'json/knowledge_base.json')
+
+# knowled_base_json_path = 'json/knowledge_base.json'
 knowledgeBase = load_knowledge_base(knowled_base_json_path)
 
 # Pages
@@ -14,6 +22,10 @@ def index():
 @app.route('/faq')
 def faq():
     return render_template('faq.html')
+
+@app.route('/leave')
+def leave():
+    return render_template('leave.html')
 
 # End Pages
 
@@ -36,11 +48,7 @@ def chat():
     message = data['message']
     response, exit = search_response(message, knowledgeBase)
 
-
-    # TODO: EXIT
-    # TODO: LEARN
-
-    return jsonify({ 'response': response })
+    return jsonify({ 'response': response, 'exit': exit , 'learn': response == knowledgeBase['response_not_found']})
 
 if __name__ == '__main__':
     app.run(debug=True)
