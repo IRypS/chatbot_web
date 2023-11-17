@@ -15,6 +15,23 @@
       .chat-container-messages {
         height: 90%;
         overflow: auto;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .chat-message-left,
+      .chat-message-right {
+          display: flex;
+          flex-shrink: 0
+      }
+
+      .chat-message-left {
+          margin-right: auto
+      }
+
+      .chat-message-right {
+          flex-direction: row-reverse;
+          margin-left: auto
       }
     </style>
   </head>
@@ -149,14 +166,37 @@
           message.value = '';
         }
 
-        let messageElement = document.createElement('p');
-        messageElement.textContent = messageToPrint;
+        let messageElement = document.createElement('div');
+        let className = `chat-message-${ isBot ? 'left' : 'right' } mb-4`;
+        let profilePicture = isBot
+          ? 'https://cdn.pixabay.com/photo/2022/09/25/23/28/android-7479380_1280.png'
+          : 'https://cdn.pixabay.com/photo/2012/05/07/01/54/owl-47526_1280.png';
+        let name = isBot ? 'Bot' : 'Usuario';
+        console.log( name );
 
-        if ( !isBot ) messageElement.classList.add('text-end');
+
+        messageElement.className = className;
+        messageElement.innerHTML = `
+          <div>
+            <img src="${profilePicture}" class="rounded-circle mr-1" alt="${ name }" width="40" height="40">
+            <div class="text-muted small text-nowrap mt-2">${ getTime() }</div>
+          </div>
+          <div class="flex-shrink-1 bg-light rounded py-2 px-3 mr-3">
+            <div class="font-weight-bold mb-1"><b>${name}</b></div>
+            ${messageToPrint}
+          </div>`;
         
         document.getElementById('messages').appendChild(messageElement);
         container.scrollTo(0, container.scrollHeight);
       };
+
+
+      function getTime() {
+        let currentTime = new Date();
+        let hours = currentTime.getHours();
+        let minutes = currentTime.getMinutes();
+        return hours + ':' + minutes
+      }
     </script>
     <!-- End Generates messages Script -->
 
