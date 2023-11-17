@@ -5,13 +5,8 @@ import os
 
 app = Flask(__name__)
 
-# Obtén la ruta al directorio actual
 current_dir = os.path.dirname(os.path.abspath(__file__))
-
-# Crea la ruta al archivo JSON
 knowled_base_json_path = os.path.join(current_dir, 'json/knowledge_base.json')
-
-# knowled_base_json_path = 'json/knowledge_base.json'
 knowledgeBase = load_knowledge_base(knowled_base_json_path)
 
 # Pages
@@ -22,6 +17,10 @@ def index():
 @app.route('/faq')
 def faq():
     return render_template('faq.html')
+
+@app.route('/tutorial')
+def tutorial():
+    return render_template('tutorial.html')
 
 @app.route('/leave')
 def leave():
@@ -44,7 +43,6 @@ def getMessages():
 @app.route('/get-response', methods=['POST'])
 def chat():
     data = request.get_json()
-  # Aquí puedes poner el código para procesar la pregunta
     message = data['message']
     response, exit = search_response(message, knowledgeBase)
 
