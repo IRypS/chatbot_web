@@ -6,12 +6,132 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <style>
+      .chat-container {
+        height: 85vh !important;
+      }
+
+      .chat-container-messages {
+        height: 90%;
+        overflow: auto;
+      }
+    </style>
   </head>
 
   <body>
-    <h1>Hello, world!</h1>  
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam rerum omnis non ex vel sit adipisci qui. Modi praesentium est eveniet optio ex sapiente vero fugit nulla hic? Corrupti accusamus ab repellendus itaque atque nesciunt. Perspiciatis sunt iste officiis laudantium veniam assumenda placeat beatae. Commodi dignissimos incidunt id earum nulla.</p>
+
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Chatbot Grupo 12</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/faq">Link</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END Nav -->
+
+    <div class="container my-3 h-100 mh-100 chat-container border">
+
+      <div class="row h-100">
+
+        <!-- Messages Container -->
+        <div class="col-12 chat-container-messages" id="chat-messages">
+          <div id="messages" class="mt-3" style="height: 95%;">
+          </div>
+        </div>
+        <!-- END Messages Container -->
+
+
+        <!-- <form id="chat-form" action="/get-response" method="post" class="col-12 align-self-end mt-3"> -->
+        <form id="chat-form" class="col-12 align-self-end mt-3">
+          <div class="input-group">
+            <input type="text" class="form-control" id="message" name="message" placeholder="Escribe un mensaje">
+            <div class="input-group-append">
+              <button class="btn btn-primary" type="submit">Enviar</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <script>
+      window.onload = function() {
+        let containerMessage = document.getElementById('chat-messages');
+
+        fetch('/chatbot/messages', {
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ messageType: "welcome_response" })
+        }).then(response => response.json())
+        .then(data => {
+          generateMessageInView( containerMessage, data.message, true, true );
+        });
+      };
+    </script>
+
+    <script>
+      document.getElementById('chat-form').addEventListener('submit', function(e) {
+        e.preventDefault();
+        var containerMessage = document.getElementById('chat-messages');
+        var message = document.getElementById('message').value;
+
+        // Print message
+        generateMessageInView( containerMessage, 'message' );
+
+
+        fetch('/get-response', {
+          method: 'POST',
+          headers: {
+              'Content-Type': 'application/json'
+          },
+          body: JSON.stringify({ message: message })
+        }).then(response => response.json())
+        .then(data => {
+          generateMessageInView( containerMessage, data.response, true, true );
+        });
+      });
+    </script>
+
+    <script>
+      function generateMessageInView(container, idMessage, isBot = false, comesFromResponse = false ) {
+
+        let message;
+        let messageToPrint;
+
+        if (comesFromResponse){
+          messageToPrint = idMessage;
+        } else {
+          message = document.getElementById(idMessage);
+          messageToPrint = message.value;
+          message.value = '';
+        }
+
+        let messageElement = document.createElement('p');
+        messageElement.textContent = messageToPrint;
+
+        if ( !isBot ) messageElement.classList.add('text-end');
+        
+        document.getElementById('messages').appendChild(messageElement);
+        container.scrollTo(0, container.scrollHeight);
+      };
+    </script>
   </body>
 
 </html>

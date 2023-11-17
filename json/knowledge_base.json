@@ -1,0 +1,307 @@
+{
+  "welcome_response": "Hola bienvenido a Certus",
+  "response_not_found": "No sé la respuesta. ¿Puede enseñármela?",
+  "response_learned": "¡Gracias! ¡He aprendido algo nuevo!",
+  "farewell_response": "¡Que tengas un buen día!",
+  "ban_warning": "Se hizo uso de una palabra o frase no permitida",
+  "blacklist": [
+    "jugar fútbol",
+    "partido de fútbol",
+    "equipos de fútbol",
+    "estadio de fútbol",
+    "gol de fútbol",
+    "liga de fútbol",
+    "religión",
+    "iglesia",
+    "creencias religiosas",
+    "chamba",
+    "chévere",
+    "pata",
+    "causa",
+    "fregar",
+    "gaaaaa"
+  ],
+  "phishing": {
+    "responses": {
+      "request_confirmation_to_start": "En Certus nos esforzamos por cuidar a nuestros estudiantes y luchar contra las estafas. ¿Desea hacer una comprobación para saber si se trata de un correo legítimo?",
+      "response_start": "Bien, a continuación se le hará una serie de preguntas para las cuales deberá responder únicamente con \"Si\" o \"No\" ",
+      "response_bad_input": "Respuesta no válida. Únicamente se admiten respuestas: si, s, no, n",
+      "response_cancel": "Entendido. ¿Tienes alguna otra pregunta adicional?",
+      "response_is_phishing": "Es muy probable que el correo recibido sea fraudulento y/o un phishing, ten cuidado con esos correos e ignóralos. Asimismo puedes informar de este hecho mediante nuestros canales especializados",
+      "response_is_not_phishing": "Es muy probable que el correo recibido no sea phishing y solo sea un error por nuestra parte, ¡No te preocupes! Revisaremos el caso y te informaremos en caso se trate de una equivocación"
+    },
+    "wordlist": [
+      "Correo sospechoso",
+      "Correo fraudulento",
+      "Email de estafa",
+      "Intento de phishing",
+      "Correo falso de la institución",
+      "¿Este correo es legítimo?",
+      "¿La institución envía correos electrónicos así?",
+      "Revisar autenticidad del correo",
+      "¿Este mensaje es de la institución educativa?",
+      "¿La escuela envía mensajes como este?",
+      "Me llegó un correo del instituto solicitándome un pago por adicional. ¿Es legítimo?"
+    ],
+    "questions": [
+      "¿El correo lo incitaba al apuro o indicaba urgencia?",
+      "¿El correo le solicitaba datos sensibles? (Número de identidad, nombres completos, datos financieros)",
+      "¿El correo contenía carácteres raros o ininteligibles?",
+      "¿El correo tenía un saludo genérico? (Sin referirse exprésamente a usted)"
+    ]
+  },
+  "question": [
+    {
+      "question": "Hola",
+      "answer": "Hola ¿En qué puedo ayudarte hoy?"
+    },
+    {
+      "question": "¿Cuales son los convenios Nacionales?",
+      "answer": "Certus cuenta con 6 universidades con las que tiene convenio. Estas son: UPN, UTP, Universidad Continental, Universidad ESAN, Univerdad San Ignacio de Loyola, Universidad Peruana de Ciencias Aplicadas. ¿Desea saber cuales son los convenios Internacionales?"
+    },
+    {
+      "question": "¿Certus cuenta con convenios?",
+      "answer": "Sí, tiene convenios con universidades Nacionales e Internacionales. ¿Desea saber cuales son?"
+    },
+    {
+      "question": "¿Cuales son los convenios Internacionales?",
+      "answer": "Certus cuenta con 3 paises con los que tiene convenio. Estas paises son: ColOmbia: Universidad Pontificia Bolivariana, Uniminuto, Universidad Cooperativa de colombia. | Chile: Onacap, Universidad Gabriela Mistral. | España: IED. Espero haber respondido a tu pregunta."
+    },
+    {
+      "question": "¿Con qué empresas tiene convenio Certus?",
+      "answer": "Las enpresas son Cencosud, efe, Latina, mibanco, BCP, Hermes, NTT DATA, Adecco, Oxxo, DHL express, Interbank, etc."
+    },
+    {
+      "question": "¿En qué sedes está ubicado Certus?",
+      "answer": "Av. Santiago de Surco, Av. Pachacutec 403, San Juan de Lurigancho, Ate, Av, Industrial Norte, Callao, Arequipa y Chiclayo."
+    },
+    {
+      "question": "¿Qué turnos tiene?",
+      "answer": "Turno Mañana: Lunes a sábado (de 7:00 a.m. a 10:45 a.m.). | Turno Diurno: Lunes a sábado (de 10:45 a.m. a 2:30 p.m.). | Turno Tarde: Lunes a sábado (de 2:30 p.m. a 6:15 p.m.). | Turno Noche: Lunes a sábado (de 7:00 p.m. a 10:45 p.m.)."
+    },
+    {
+      "question": "¿Cuales son las carreras que tiene Certus?",
+      "answer": "El Instituto Certus ofrece carreras técnicas en Negocios, Finanzas, Tecnología y Creatividad.Aquí te presento algunas de las carreras que ofrece el Instituto Certus: | Administración de Empresas. | Administración de Negocios Internacionales. | Marketing y Gestión de Medios Digitales. | Administración y Gestión Comercial. | Administración y Recursos Humanos. | Contabilidad y Tributación. | Administración Financiera y Banca Digital. | Diseño y Desarrollo de Software. | Administración de Sistemas. | Publicidad. | Espero que esta información te sea útil."
+    },
+    {
+      "question": "¿Como puedo contactar al Instituto Certus?",
+      "answer": "Puedes contactar al Instituto Certus a través de los siguientes medios: Teléfono: Para llamar al Instituto Certus, puedes marcar el siguiente número de atención a clientes: (01) 20 20 900. El horario de atención telefónica es de lunes a viernes de 9:00 a.m. a 8:00 p.m. y los sábados de 9:00 a.m. a 6:00 p.m. | Correo electrónico: Si prefieres enviar un correo electrónico, puedes escribir a informes@certus.edu.pe | Página web: También puedes visitar la página web del Instituto Certus para obtener más información sobre sus carreras y servicios."
+    },
+    {
+      "question": "¿Cual es la política de reembolso del Instituto Certus?",
+      "answer": "La política de reembolso del Instituto Certus establece que los estudiantes pueden solicitar la devolución de su dinero si cancelan su matrícula antes del inicio de las clases. Si el estudiante decide retirarse después del inicio de las clases, el instituto no reembolsará el dinero pagado por la matrícula. Sin embargo, el estudiante puede solicitar una transferencia a otra carrera o programa en el instituto."
+    },
+    {
+      "question": "¿Ofrece el Instituto Certus algún descuento o promoción?",
+      "answer": "¡Hola! El Instituto Certus ofrece promociones y descuentos en diferentes momentos del año. Por ejemplo, en el pasado ha ofrecido descuentos en cursos seleccionados, financiamiento de pagos en cuotas, y matrícula gratuita. Te recomiendo que visites la página web del instituto o te comuniques con ellos para obtener información actualizada sobre las promociones y descuentos disponibles."
+    },
+    {
+      "question": "¿Cuanto tiempo lleva el Instituto Certus en funcionamiento?",
+      "answer": "El Instituto Certus tiene más de 26 años de experiencia en la formación de profesionales en carreras técnicas en Negocios, Finanzas, Tecnología y Creatividad."
+    },
+    {
+      "question": "¿Podrias pasarme el enlace de la matricula de Certus?",
+      "answer": "Claro. https://www.certus.edu.pe/matricula/"
+    },
+    {
+      "question": "¿Podrías pasarme el enlace del portal Certus?",
+      "answer": "¡Por supuesto! El enlace al portal del Instituto Certus es http://intranet.certus.edu.pe/login/."
+    },
+    {
+      "question": "¿Cual es la malla curricular de Administración de Empresas en Certus?",
+      "answer": "La malla curricular se divide en tres módulos: Módulo 1: Desarrollo de fortalezas personales | Comunicación efectiva. | Desarrollo personal y liderazgo. | Inglés empresarial. | Matemáticas empresariales. | Taller de emprendimiento. | Módulo 2: Análisis de procesos empresariales. | Contabilidad general. | Costos y presupuestos. | Estadística empresarial. | Gestión de la calidad. | Marketing. | Módulo 3: Gestión estratégica de negocios | Administración financiera. | Derecho empresarial. | Gestión estratégica de negocios. | Gestión del talento humano. | Taller de investigación aplicada."
+    },
+    {
+      "question": "¿Podrías pasarme el enlace de la carrera de Administración de Empresas en Certus?",
+      "answer": "¡Por supuesto! El enlace es https://www.certus.edu.pe/carrera/administracion-de-empresas/"
+    },
+    {
+      "question": "¿Podrías pasarme el enlace de la malla de administración de empresas?",
+      "answer": "¡Por supuesto! El enlace es https://www.certus.edu.pe/wp-content/uploads/2019/01/malla-administracion-de-empresas.pdf"
+    },
+    {
+      "question": "Cual es la malla curricular de Administración de Negocios Internacionales en Certus?",
+      "answer": "La malla curricular se divide en tres módulos: Módulo 1: Desarrollo de fortalezas personales | Comunicación efectiva. | Desarrollo personal y liderazgo. | Inglés empresarial. | Matemáticas empresariales. | Taller de emprendimiento. | Módulo 2: Análisis de procesos empresariales. | Contabilidad general. | Costos y presupuestos. | Estadística empresarial. | Gestión de la calidad. | Marketing. | Módulo 3: Gestión estratégica de negocios | Administración financiera. | Derecho empresarial. | Gestión estratégica de negocios. | Gestión del talento humano. | Taller de investigación aplicada."
+    },
+    {
+      "question": "¿Podrías pasarme el enlace de la carrera de Administración de Negocios Internacionales en Certus?",
+      "answer": "¡Por supuesto! El enlace es https://www.certus.edu.pe/carrera/administracion-de-negocios-internacionales/"
+    },
+    {
+      "question": "¿Podrías pasarme el enlace de la malla de Administración de Negocios Internacionales?",
+      "answer": "¡Por supuesto! El enlace es https://www.certus.edu.pe/wp-content/uploads/2019/01/malla-administracion-de-negocios-internacionales.pdf"
+    },
+    {
+      "question": "¿Cual es la malla curricular de Marketing y Gestión de Medios Digitales en Certus?",
+      "answer": "La malla curricular se divide en tres módulos: Módulo 1: Desarrollo de fortalezas personales: Comunicación efectiva. - Desarrollo personal y liderazgo. - Inglés empresarial. - Matemáticas empresariales. - Taller de emprendimiento. | Módulo 2: Análisis de procesos empresariales - Contabilidad general. - Costos y presupuestos. - Estadística empresarial. - Gestión de la calidad. - Marketing. | Módulo 3: Gestión estratégica de negocios - Administración financiera. - Derecho empresarial. - Gestión estratégica de negocios. - Gestión del talento humano. - Taller de investigación aplicada."
+    },
+    {
+      "question": "¿Podrías pasarme el enlace de la carrera de Marketing y Gestión de Medios Digitales?",
+      "answer": "¡Por supuesto! El enlace es https://www.certus.edu.pe/carrera/marketing-y-gestion-de-medios-digitales/"
+    },
+    {
+      "question": "¿Podrías pasarme el enlace de la malla de Marketing y Gestión de Medios Digitales?",
+      "answer": "¡Por supuesto! El enlace es https://www.certus.edu.pe/wp-content/uploads/2022/03/Malla-Curricular-Marketing-y-Gestion-de-Medios-Digitales.pdf"
+    },
+    {
+      "question": "¿Cual es la malla curricular de Administración y Gestión Comercial en Certus?",
+      "answer": "La malla curricular se divide en tres módulos: Módulo 1: Desarrollo de fortalezas personales - Comunicación efectiva. - Desarrollo personal y liderazgo. - Inglés empresarial. - Matemáticas empresariales. - Taller de emprendimiento. | Módulo 2: Análisis de procesos empresariales - Contabilidad general. - Costos y presupuestos. - Estadística empresarial. Gestión de la calidad. - Marketing. | Módulo 3: Gestión estratégica de negocios - Administración financiera. - Derecho empresarial. - Gestión estratégica de negocios. - Gestión del talento humano. - Taller de investigación aplicada."
+    },
+    {
+      "question": "¿Podrías pasarme el enlace de la carrera de Administración y Gestión Comercial en Certus?",
+      "answer": "¡Por supuesto! El enlace es https://www.certus.edu.pe/carrera/administracion-gestion-comercial/"
+    },
+    {
+      "question": "¿Podrías pasarme el enlace de la malla de Administración y Gestión Comercial?",
+      "answer": "¡Por supuesto! El enlace es https://www.certus.edu.pe/wp-content/uploads/2021/01/Brochure-Administracion-de-Gestion-Comercial.pdf"
+    },
+    {
+      "question": "¿Cual es la malla curricular de Administración y Recursos Humanos en Certus?",
+      "answer": "La malla curricular se divide en tres módulos: Módulo 1: Desarrollo de fortalezas personales - Comunicación efectiva. - Desarrollo personal y liderazgo. - Inglés empresarial. - Matemáticas empresariales. - Taller de emprendimiento. | Módulo 2: Análisis de procesos empresariales - Contabilidad general. - Costos y presupuestos. - Estadística empresarial. - Gestión de la calidad. - Marketing. | Módulo 3: Gestión estratégica de negocios - Administración financiera. - Derecho empresarial. - Gestión estratégica de negocios. - Gestión del talento humano. - Taller de investigación aplicada."
+    },
+    {
+      "question": "¿Podrías pasarme el enlace de la carrera de Administración y Recursos Humanos en Certus?",
+      "answer": "¡Por supuesto! El enlace es https://www.certus.edu.pe/carrera/administracion-y-recursos-humanos/"
+    },
+    {
+      "question": "¿Podrías pasarme el enlace de la malla de Administración y Recursos Humanos?",
+      "answer": "¡Por supuesto! El enlace es https://www.certus.edu.pe/carrera/malla-administracion-y-recursos-humanos.pdf"
+    },
+    {
+      "question": "Cual es la malla curricular de Contabilidad y Tributación en Certus?",
+      "answer": "La malla curricular se divide en tres módulos: Módulo 1: Soporte operativo de procesos contables - Contabilidad general. - Costos y presupuestos. - Estadística empresarial. - Matemáticas empresariales. - Taller de emprendimiento. | Módulo 2: Procesos contables- Contabilidad avanzada. - Contabilidad gubernamental. - Derecho empresarial. - Gestión de la calidad. - Marketing. | Módulo 3: Gestión estratégica de negocios - Administración financiera. - Gestión estratégica de negocios. - Gestión del talento humano. - Planificación tributaria. - Taller de investigación aplicada."
+    },
+    {
+      "question": "¿Podrías pasarme el enlace de la carrera de Contabilidad y Tributación en Certus?",
+      "answer": "¡Por supuesto! El enlace es https://www.certus.edu.pe/carrera/contabilidad-y-tributacion/"
+    },
+    {
+      "question": "¿Podrías pasarme el enlace de la malla de Contabilidad y Tributación?",
+      "answer": "¡Por supuesto! El enlace es https://www.certus.edu.pe/wp-content/uploads/2022/11/Malla_Contabilidad-ADistancia.pdf"
+    },
+    {
+      "question": "¿Cual es la malla curricular de Administración Financiera y Banca Digital en Certus?",
+      "answer": "La malla curricular se divide en tres módulos: Módulo 1: Soporte operativo de procesos contables - Contabilidad general. - Costos y presupuestos. - Estadística empresarial. - Matemáticas empresariales. - Taller de emprendimiento. | Módulo 2: Procesos contables - Contabilidad avanzada. - Contabilidad gubernamental. - Derecho empresarial. - Gestión de la calidad. - Marketing. | Módulo 3: Gestión estratégica de negocios - Administración financiera. - Gestión estratégica de negocios. - Gestión del talento humano. - Planificación tributaria. - Taller de investigación aplicada. - Espero que esta información te sea útil."
+    },
+    {
+      "question": "¿Podrías pasarme el enlace de la carrera de Administración Financiera y Banca Digital en Certus?",
+      "answer": "¡Por supuesto! El enlace es https://www.certus.edu.pe/carrera/administracion-financiera-y-banca-digital/"
+    },
+    {
+      "question": "¿Podrías pasarme el enlace de la malla de Administración Financiera y Banca Digital?",
+      "answer": "¡Por supuesto! El enlace es https://www.certus.edu.pe/carrera/malla-administracion-financiera-y-banca-digital.pdf"
+    },
+    {
+      "question": "¿Cual es la malla curricular de Diseño y Desarrollo de Software en Certus?",
+      "answer": "La malla curricular se divide en tres módulos: Módulo 1: Soporte operativo de procesos contables - Contabilidad general. - Costos y presupuestos. - Estadística empresarial. - Matemáticas empresariales. - Taller de emprendimiento. | Módulo 2: Procesos contables - Contabilidad avanzada. - Contabilidad gubernamental. - Derecho empresarial. - Gestión de la calidad. - Marketing. | Módulo 3: Gestión estratégica de negocios - Administración financiera. - Gestión estratégica de negocios. - Gestión del talento humano. - Planificación tributaria. - Taller de investigación aplicada."
+    },
+    {
+      "question": "¿Podrías pasarme el enlace de la carrera de Diseño y Desarrollo de Software en Certus?",
+      "answer": "¡Por supuesto! El enlace es https://www.certus.edu.pe/carrera/diseno-desarrollo-software/"
+    },
+    {
+      "question": "¿Podrías pasarme el enlace de la malla de Diseño y Desarrollo de Software?",
+      "answer": "¡Por supuesto! El enlace es https://www.certus.edu.pe/wp-content/uploads/2020/01/Malla-Diseno-y-Desarrollo-de-Software.pdf"
+    },
+    {
+      "question": "¿Cual es la malla curricular de Administración de Sistemas en Certus?",
+      "answer": "La malla curricular se divide en tres módulos: Módulo 1: Soporte operativo de procesos contables - Contabilidad general. - Costos y presupuestos. - Estadística empresarial. - Matemáticas empresariales. - Taller de emprendimiento. | Módulo 2: Procesos contables - Contabilidad avanzada. - Contabilidad gubernamental. - Derecho empresarial. - Gestión de la calidad. - Marketing. | Módulo 3: Gestión estratégica de negocios - Administración financiera. - Gestión estratégica de negocios. - Gestión del talento humano. - Planificación tributaria. - Taller de investigación aplicada."
+    },
+    {
+      "question": "¿Podrías pasarme el enlace de la carrera de Administración de Sistemas en Certus?",
+      "answer": "¡Por supuesto! El enlace es https://www.certus.edu.pe/carrera/administracion-de-sistemas/"
+    },
+    {
+      "question": "¿Podrías pasarme el enlace de la malla de Administración de Sistemas?",
+      "answer": "¡Por supuesto! El enlace es https://www.certus.edu.pe/wp-content/uploads/2021/05/Malla-Adm-de-Sistemas.pdf"
+    },
+    {
+      "question": "¿Cual es la malla curricular de Publicidad en Certus?",
+      "answer": "La malla curricular se divide en tres módulos: Módulo 1: Desarrollo de fortalezas personales - Comunicación efectiva. - Desarrollo personal y liderazgo. - Inglés empresarial. - Matemáticas empresariales. - Taller de emprendimiento. | Módulo 2: Análisis de procesos empresariales - Contabilidad general. - Costos y presupuestos. - Estadística empresarial. - Gestión de la calidad. - Marketing. | Módulo 3: Gestión estratégica de negocios - Administración financiera. - Derecho empresarial. - Gestión estratégica de negocios. - Gestión del talento humano. - Taller de investigación aplicada."
+    },
+    {
+      "question": "¿Podrías pasarme el enlace de la carrera de Publicidad en Certus?",
+      "answer": "¡Por supuesto! El enlace es https://www.certus.edu.pe/carrera/publicidad/"
+    },
+    {
+      "question": "¿Podrías pasarme el enlace de la malla de Publicidad?",
+      "answer": "¡Por supuesto! El enlace es https://www.certus.edu.pe/wp-content/uploads/2021/01/Brochure-Publicidad.pdf"
+    },
+    {
+      "question": "¿La carrera Administración de Empresas es de manera virtual o presencial en Certus?",
+      "answer": "La carrera de Administración de Empresas en el Instituto Certus se ofrece en modalidad presencial."
+    },
+    {
+      "question": "¿La carrera Administración de Negocios Internacional es es de manera virtual o presencial en Certus?",
+      "answer": "La carrera de Administración de Empresas en el Instituto Certus se ofrece en modalidad presencial y también cuenta con modalidad virtual."
+    },
+    {
+      "question": "¿La carrera Marketing y Gestión de Medios Digitales es de manera virtual o presencial en Certus?",
+      "answer": "La carrera de Administración de Empresas en el Instituto Certus se ofrece en modalidad presencial."
+    },
+    {
+      "question": "¿La carrera Administración y Gestión Comercial es de manera virtual o presencial en Certus?",
+      "answer": "La carrera de Administración de Empresas en el Instituto Certus se ofrece en modalidad presencial."
+    },
+    {
+      "question": "¿La carrera Administración y Recursos Humanos es de manera virtual o presencial en Certus?",
+      "answer": "La carrera de Administración de Empresas en el Instituto Certus se ofrece en modalidad presencial y también cuenta con modalidad virtual."
+    },
+    {
+      "question": "¿La carrera Contabilidad y Tributación es de manera virtual o presencial en Certus?",
+      "answer": "La carrera de Administración de Empresas en el Instituto Certus se ofrece en modalidad presencial."
+    },
+    {
+      "question": "¿La carrera Administración Financiera y Banca Digital es de manera virtual o presencial en Certus?",
+      "answer": "La carrera de Administración de Empresas en el Instituto Certus se ofrece en modalidad presencial."
+    },
+    {
+      "question": "¿La carrera Administración de Sistemas es de manera virtual o presencial en Certus?",
+      "answer": "La carrera de Administración de Empresas en el Instituto Certus se ofrece en modalidad presencial."
+    },
+    {
+      "question": "¿La carrera Publicidad es de manera virtual o presencial en Certus?",
+      "answer": "La carrera de Administración de Empresas en el Instituto Certus se ofrece en modalidad presencial."
+    },
+    {
+      "question": "¿La carrera Diseño y Desarrollo de Software es de manera virtual o presencial en Certus?",
+      "answer": "La carrera de Administración de Empresas en el Instituto Certus se ofrece en modalidad presencial y también cuenta con modalidad virtual."
+    },
+    {
+      "question": "¿Certus cuenta con buena antención al estudiante?",
+      "answer": "El Instituto Certus se preocupa por brindar una atención de calidad a sus estudiantes. Cuenta con una central de informes que puedes contactar por teléfono o correo electrónico para resolver tus dudas y consultas."
+    },
+    {
+      "question": "¿El instituto Certus ofrece servicios de consejería psicológica?",
+      "answer": "El instituto ofrece servicios de consejería psicológica en línea para sus estudiantes, con el objetivo de ayudarlos a gestionar sus emociones y mejorar su organización en los estudios o el trabajo."
+    },
+    {
+      "question": "¿Qué papeles necesito para inscribirme al instituto Certus?",
+      "answer": "Para inscribirte en el Instituto Certus, necesitarás los siguientes documentos: Copia de tu DNI: Deberás presentar una copia de tu Documento Nacional de Identidad (DNI) vigente. | Certificado de estudios: Deberás presentar una copia del certificado de estudios de tu educación secundaria o equivalente. | Recibo de pago: Deberás presentar el recibo de pago correspondiente a la matrícula y pensión del ciclo académico en el que te inscribirás."
+    },
+    {
+      "question": "¿El instituto Certus ofrece practicas a sus estudiantes?",
+      "answer": "¡Hola! Sí, el Instituto Certus ofrece prácticas preprofesionales y profesionales a sus estudiantes. Además, Certus se compromete en el desarrollo profesional de sus estudiantes y egresados, y les brinda asesoramiento en la búsqueda de oportunidades de trabajo a través de convenios con más de 100 empresas a nivel nacional. ¡Espero que esto te haya ayudado!"
+    },
+    {
+      "question": "¿El instituto Certus ofrece programas de capacitación?",
+      "answer": "Certus ofrece programas de capacitación en diversas áreas, como marketing digital, diseño gráfico, programación, entre otros. ¡Espero que esto te haya ayudado!"
+    },
+    {
+      "question": "¿El instituto Certus ofrece Certificaciones internacionales?",
+      "answer": "Certus es un centro autorizado para la realización de exámenes de certificación internacional en diversas áreas, como Microsoft Office Specialist (MOS), Adobe Certified Associate (ACA). ¡Espero que esto te haya ayudado!"
+    },
+    {
+      "question": "¿El instituto Certus cuenta con laboratorio clinico?",
+      "answer": "Certus cuenta con un laboratorio clínico que brinda servicios de análisis clínicos y microbiológicos. ¡Espero que esto te haya ayudado!"
+    },
+    {
+      "question": "¿Cuales son los integrantes del grupo?",
+      "answer": "Los integrantes del grupo 12 son: \n• Andy Imanol Mnachego Montes \n• Jersson Eduardo León Vilca \n• Ricardo Manuel Pelaez Limpi"
+    },
+    {
+      "question": "Muchas gracias. Chau!.",
+      "answer": "¡De nada! ¡Que tengas un buen día!"
+    }
+  ]
+}
