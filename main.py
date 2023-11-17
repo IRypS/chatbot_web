@@ -14,9 +14,13 @@ knowledgeBase = load_knowledge_base(knowled_base_json_path)
 def index():
     return render_template('index.html')
 
-@app.route('/faq')
-def faq():
-    return render_template('faq.html')
+# @app.route('/faq')
+# def faq():
+#     return render_template('faq.html')
+
+@app.route('/basic')
+def basic():
+    return render_template('basic.html')
 
 @app.route('/tutorial')
 def tutorial():

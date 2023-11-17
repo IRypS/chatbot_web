@@ -1,0 +1,30 @@
+.chat-container {
+    height: 85vh !important;
+  }
+
+  .chat-container-messages {
+    height: 90%;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .chat-message-left,
+  .chat-message-right {
+      display: flex;
+      flex-shrink: 0
+  }
+
+  .chat-message-left {
+      margin-right: auto
+  }
+
+  .chat-message-right {
+      flex-direction: row-reverse;
+      margin-left: auto
+  }
+
+  /* Overrading  */
+  .btn-primary {
+    background-color: #192063 !important;
+  }
