@@ -23,6 +23,10 @@ def basic():
 def useCases():
     return render_template('use-cases.html')
 
+@app.route('/faq')
+def faq():
+    return render_template('faq.html')
+
 @app.route('/leave')
 def leave():
     return render_template('leave.html')

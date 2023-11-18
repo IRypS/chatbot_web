@@ -11,6 +11,33 @@
   <!-- <body style="background-color: #343541;"> -->
   <body>
 
+    <!-- Nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/">Chatbot Grupo 12</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Chatbot</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/basic">Funcionamiento básico</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/use-cases">Casos de uso</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/faq">Preguntas adicionales</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END Nav -->
+
     <div class="Container">
         <h1 class="text-center">Gracias por tu visita</h1>
         <img src="{{ url_for('static', filename='euphoria.webp') }}" class="rounded-circle mr-1" alt="${ name }">
